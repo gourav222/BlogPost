@@ -124,6 +124,7 @@ function AddNewBlog({ change, setChange }: AddNewBlogProps) {
               value="Add post"
               onClick={() => {
                 addNewBlog();
+                alert('Blog Successfully Added');
               }}
             />
           </p>
